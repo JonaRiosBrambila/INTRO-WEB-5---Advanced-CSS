@@ -1,0 +1,61 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h3 {
+    color: rgb(228, 27, 27);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  div {
+    background-color: rgb(13, 223, 160);
+    margin: 10px;
+  }
+ .container{
+    background-color: rgb(238, 20, 220);
+    margin: 10px;
+    border: 10px solid black;
+ }
+ .etiqu1{
+    background-color: rgb(40, 27, 228);
+    margin: 200px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 10px solid black;
+ }
+ .etiqu2{
+    background-color: rgb(9, 165, 79);
+    margin: 200px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 10px solid black;
+    transform: rotate(-90deg);
+
+ }
+ .rectangulo {
+    width: 250px; 
+    height: 100px; 
+    border: 3px solid #555;
+    
+    color: transparent;
+    background-image: linear-gradient(to left, #543ed1, #f80f1a, #0e8ee2, #e91919, #0f2fe0);    
+    background-clip: text;
+    animation: color 5s linear infinite;
+    background-size: 500%;    
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+    
+
